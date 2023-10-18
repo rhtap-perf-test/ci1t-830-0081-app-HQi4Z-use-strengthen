@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-lvtx
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0081-tenant/ci1t-830-0081-app/devfile-sample-lvtx@sha256:61c2d21bcdf51730ac8563f9cf7afe0092b1bd93f8dd88a04c7e11dc4148c20d
         name: my-nodejs
         ports:
         - containerPort: 3001
