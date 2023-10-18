@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-lvtx
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0081-tenant/ci1t-830-0081-app/devfile-sample-lvtx@sha256:61c2d21bcdf51730ac8563f9cf7afe0092b1bd93f8dd88a04c7e11dc4148c20d
+        name: my-nodejs
+        resources: {}
+status: {}
